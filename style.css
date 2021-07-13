@@ -1,0 +1,150 @@
+html, body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*header*/
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+nav li {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+a {
+  color: seashell;
+  opacity: 0.9;
+  padding: 10px;
+}
+a:hover {
+  background: seashell;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*main*/
+
+main {
+    position: relative;
+    top: 64px;
+    margin: auto 20px;
+}
+
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission h2, h4 {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: black;
+}
+
+#featured-tea h2, h4 {
+    padding: 10px;
+}
+
+#featured-tea h2 {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+#featured-tea h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.teas-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+}
+
+.tea {
+    width: 300px;
+    margin: auto 15px;
+}
+
+.tea img {
+    height: 200px;
+}
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations-list {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    margin: auto 40px;
+}
+
+.location p {
+    line-height: 70px;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    margin: auto 20px;
+    top: 50px;
+}
+
+.contact h5{
+    line-height: 50px;
+}
+
+.copyright {
+    text-align: left;
+    padding-bottom: 10px;
+}
